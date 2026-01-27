@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+      },
       boxShadow: {
         'input-shadow': '0 63px 59px rgba(26,33,188,.1)',
         'course-shadow': '0 40px 20px rgba(0,0,0,.15)',
