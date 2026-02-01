@@ -83,7 +83,7 @@ const Signin = () => {
           <button
             onClick={loginUser}
             type="submit"
-            className="bg-primary w-full py-3 rounded-lg text-18 font-medium border border-primary text-white hover:text-primary hover:bg-transparent"
+            className="bg-primary w-full py-3 rounded-lg text-lg font-medium border border-primary text-white hover:text-primary hover:bg-transparent transition"
           >
             Sign In {loading && <Loader />}
           </button>
