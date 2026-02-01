@@ -34,9 +34,11 @@ Code Changes → Push to main → GitHub Actions → Build → Deploy → Live W
 
 ### Method 2: Workflow Badge
 
-The README has a badge that shows real-time deployment status:
-- ![Green badge](https://img.shields.io/badge/build-passing-brightgreen) = Latest deployment successful
-- ![Red badge](https://img.shields.io/badge/build-failing-red) = Deployment failed
+The README has a badge at the top that shows real-time deployment status. When you view the README:
+- **Green badge** (passing) = Latest deployment successful
+- **Red badge** (failing) = Deployment failed
+
+The badge links directly to the workflow runs when clicked.
 
 ### Method 3: Check the Live Site
 
