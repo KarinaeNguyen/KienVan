@@ -58,7 +58,7 @@ const SignUp = () => {
             placeholder="Name"
             name="name"
             required
-            className="w-full rounded-md border border-black/20 border-solid bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-grey focus:border-primary focus-visible:shadow-none text-white dark:focus:border-primary"
+            className="w-full rounded-md border border-black/20 border-solid bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark/50 focus:border-primary focus-visible:shadow-none dark:text-white dark:placeholder:text-white/50 dark:focus:border-primary"
           />
         </div>
         <div className="mb-[22px]">
@@ -67,7 +67,7 @@ const SignUp = () => {
             placeholder="Email"
             name="email"
             required
-            className="w-full rounded-md border border-black/20 border-solid bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-grey focus:border-primary focus-visible:shadow-none text-white dark:focus:border-primary"
+            className="w-full rounded-md border border-black/20 border-solid bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark/50 focus:border-primary focus-visible:shadow-none dark:text-white dark:placeholder:text-white/50 dark:focus:border-primary"
           />
         </div>
         <div className="mb-[22px]">
@@ -76,7 +76,7 @@ const SignUp = () => {
             placeholder="Password"
             name="password"
             required
-            className="w-full rounded-md border border-black/20 border-solid bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-grey focus:border-primary focus-visible:shadow-none text-white dark:focus:border-primary"
+            className="w-full rounded-md border border-black/20 border-solid bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark/50 focus:border-primary focus-visible:shadow-none dark:text-white dark:placeholder:text-white/50 dark:focus:border-primary"
           />
         </div>
         <div className="mb-9">
@@ -89,7 +89,7 @@ const SignUp = () => {
         </div>
       </form>
 
-      <p className="text-body-secondary mb-4 text-white text-base">
+      <p className="mb-4 text-base text-dark dark:text-white">
         By creating an account you are agree with our{" "}
         <a href="/#" className="text-primary hover:underline">
           Privacy
@@ -100,7 +100,7 @@ const SignUp = () => {
         </a>
       </p>
 
-      <p className="text-body-secondary text-white text-base">
+      <p className="text-base text-dark dark:text-white">
         Already have an account?
         <Link href="/" className="pl-2 text-primary hover:underline">
           Sign In

@@ -66,7 +66,7 @@ const Signin = () => {
             onChange={(e) =>
               setLoginData({ ...loginData, email: e.target.value })
             }
-            className="w-full rounded-md border border-black/20 border-solid bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-grey focus:border-primary focus-visible:shadow-none text-white dark:focus:border-primary"
+            className="w-full rounded-md border border-black/20 border-solid bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark/50 focus:border-primary focus-visible:shadow-none dark:text-white dark:placeholder:text-white/50 dark:focus:border-primary"
           />
         </div>
         <div className="mb-[22px]">
@@ -76,7 +76,7 @@ const Signin = () => {
             onChange={(e) =>
               setLoginData({ ...loginData, password: e.target.value })
             }
-            className="w-full rounded-md border border-black/20 border-solid bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-grey focus:border-primary focus-visible:shadow-none text-white dark:focus:border-primary"
+            className="w-full rounded-md border border-black/20 border-solid bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark/50 focus:border-primary focus-visible:shadow-none dark:text-white dark:placeholder:text-white/50 dark:focus:border-primary"
           />
         </div>
         <div className="mb-9">
@@ -92,11 +92,11 @@ const Signin = () => {
 
       <Link
         href="/forgot-password"
-        className="mb-2 inline-block text-base text-dark hover:text-primary text-white dark:hover:text-primary"
+        className="mb-2 inline-block text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary"
       >
         Forgot Password?
       </Link>
-      <p className="text-body-secondary text-white text-base">
+      <p className="text-base text-dark dark:text-white">
         Not a member yet?{" "}
         <Link href="/" className="text-primary hover:underline">
           Sign Up
