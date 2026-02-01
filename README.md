@@ -1,96 +1,98 @@
-# Website Template Quick Scan
+# KienVan Website
 
-Date: 2026-01-26
+[![Deploy Status](https://github.com/KarinaeNguyen/KienVan/actions/workflows/deploy.yml/badge.svg)](https://github.com/KarinaeNguyen/KienVan/actions/workflows/deploy.yml)
 
-## Quick Scan Summary
-- Framework: Next.js 14 (App Router) with React 18 and Tailwind CSS.
-- Structure: Home page plus auth and documentation pages; MDX/markdown content exists under markdown/blog but no visible route wiring.
-- Styling: Tailwind + global CSS; component-driven layout in src/components.
-- Auth: UI for sign-in/up and password flows; next-auth dependency present.
+🌐 **Live Website**: [https://karinaenguyen.github.io/KienVan/](https://karinaenguyen.github.io/KienVan/)
 
-## Notable Observations
-- Route set is small and clear; the home page composes reusable sections.
-- Mixed branding strings in metadata (e.g., “eLearning”, “Property”, “Crypgo”), which may need alignment.
-- Blog content exists but no app route currently discovered for it.
-- API folder contains data.tsx but no route handlers detected under app/api (no route.ts).
+## Project Overview
 
-## Sitemap (Planned)
-/
-├── Home
-│   ├── Hero: Chọn sách đúng để giải quyết vấn đề bạn đang gặp
-│   ├── Choose by Need (CTA chính)
-│   ├── Best Sellers (có 🎬 video)
-│   ├── Book Bundles nổi bật (có 🎬 video)
-│   └── CTA: Xem tất cả sách
-│
-├── Books
-│   ├── All Books
-│   │
-│   ├── By Category
-│   │   ├── Kinh tế & Đầu tư
-│   │   ├── Quản trị & Lãnh đạo
-│   │   └── Làm Cha Mẹ
-│   │
-│   ├── By Need  ⭐ TRỤC CHÍNH
-│   │   ├── Đang áp lực công việc / kinh doanh
-│   │   ├── Muốn nâng cấp tư duy quản trị
-│   │   ├── Muốn ra quyết định tốt hơn
-│   │   └── Muốn dạy con tốt hơn
-│   │
-│   └── Best Sellers / Gợi ý của Kiến Văn
-│
-├── Book Detail  ⭐ TRANG QUYẾT ĐỊNH
-│   ├── Thông tin sách + Giá
-│   ├── CTA: Mua ngay / Thêm vào giỏ
-│   ├── 🎬 Video TikTok Review (60–90s)
-│   ├── Cuốn này giúp bạn giải quyết gì?
-│   ├── Phù hợp với ai / Không phù hợp với ai
-│   ├── Nên đọc khi nào?
-│   ├── Gợi ý cách đọc & áp dụng
-│   ├── Thường được mua cùng
-│   └── Gợi ý Bundle liên quan (có 🎬 video)
-│
-├── Book Bundles  ⭐ 
-│   ├── Bundle theo VẤN ĐỀ
-│   │   ├── Quản trị khi áp lực
-│   │   ├── Ra quyết định tốt hơn
-│   │   └── Làm cha mẹ tỉnh thức
-│   │
-│   ├── Bundle theo GIAI ĐOẠN
-│   │   ├── Người mới làm quản lý
-│   │   ├── Founder / Chủ doanh nghiệp
-│   │   └── Gia đình có con nhỏ
-│   │
-│   └── Bundle Detail
-│       ├── 🎬 Video TikTok: Vì sao nên mua gói này?
-│       ├── Danh sách sách trong bundle
-│       ├── Thứ tự đọc gợi ý
-│       └── CTA: Mua bundle
-│
-├── Reading Experience  
-│   ├── Reading Guides
-│   │   ├── Cách đọc sách kinh tế không quá tải
-│   │   ├── Cách đọc sách quản trị để áp dụng
-│   │   └── Cách đọc sách làm cha mẹ cùng con
-│   └── Notes & Reflections (ngắn, thực tế)
-│
-├── Checkout
-│   ├── Giỏ hàng
-│   ├── Thông tin giao hàng
-│   ├── Thanh toán
-│   └── Xác nhận đơn
-│
-├── Account (Optional – rất gọn)
-│   ├── Đơn hàng của tôi
-│   └── Gợi ý sách tiếp theo (dựa trên lịch sử mua)
-│
-├── About
-│   ├── Vì sao Kiến Văn bán sách
-│   └── Triết lý chọn sách
-│
-├── Support
-│   ├── FAQ
-│   ├── Đổi trả & vận chuyển
-│   └── Liên hệ
-│
-└── Legal
+A modern website built with Next.js 14, React 18, and Tailwind CSS, deployed automatically to GitHub Pages.
+
+### Tech Stack
+- **Framework**: Next.js 14 (App Router)
+- **UI Library**: React 18
+- **Styling**: Tailwind CSS
+- **Authentication**: next-auth
+- **Deployment**: GitHub Pages (via GitHub Actions)
+
+## 🚀 Deployment
+
+### Automatic Deployment
+
+This website **automatically deploys** to GitHub Pages whenever changes are pushed to the `main` branch:
+
+1. **Push to `main`** → Triggers GitHub Actions workflow
+2. **Build** → Next.js builds the static site
+3. **Deploy** → Automatically deploys to GitHub Pages
+4. **Live in ~1-2 minutes** → Your changes are live!
+
+### Viewing Deployment Status
+
+**Option 1: Check the Badge** (above) - Green = deployed successfully
+
+**Option 2: View Workflow Runs**
+- Go to: [Actions Tab](https://github.com/KarinaeNguyen/KienVan/actions/workflows/deploy.yml)
+- Look for the latest run with ✅ (green checkmark)
+
+**Option 3: Check Deployment URL**
+- Visit: [https://karinaenguyen.github.io/KienVan/](https://karinaenguyen.github.io/KienVan/)
+- Use hard refresh (Ctrl+F5 or Cmd+Shift+R) to bypass browser cache
+
+### 💡 Common Issues
+
+**"My changes aren't showing up!"**
+
+This is usually due to **browser caching**. Try:
+1. **Hard refresh**: Press `Ctrl + F5` (Windows/Linux) or `Cmd + Shift + R` (Mac)
+2. **Clear cache**: Open DevTools (F12) → Right-click refresh button → "Empty Cache and Hard Reload"
+3. **Incognito mode**: Open the site in a private/incognito window
+4. **Check deployment**: Verify the GitHub Actions workflow completed successfully
+
+**"How do I know what's deployed?"**
+
+The deployed version matches the latest commit on the `main` branch:
+- Check commit SHA in [Actions logs](https://github.com/KarinaeNguyen/KienVan/actions)
+- Compare with [latest commit on main](https://github.com/KarinaeNguyen/KienVan/commits/main)
+
+## 🛠️ Development
+
+### Local Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Open http://localhost:3000
+```
+
+### Building for Production
+
+```bash
+# Build the static site
+npm run build
+
+# Output will be in ./out directory
+```
+
+## 📄 Site Structure
+
+- **/** - Home page
+- **/documentation** - Documentation page
+- **/signin** - Sign in page
+- **/signup** - Sign up page
+
+## 📝 Notes
+
+- The site uses static export (`output: "export"`) for GitHub Pages compatibility
+- Base path is configured as `/KienVan` in production
+- Images are unoptimized for static export compatibility
+
+## 🔧 Configuration
+
+Key files:
+- `next.config.mjs` - Next.js configuration with GitHub Pages settings
+- `.github/workflows/deploy.yml` - Deployment workflow
+- `package.json` - Dependencies and scripts
