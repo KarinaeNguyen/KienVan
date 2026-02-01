@@ -31,7 +31,7 @@ const ChooseByNeed = () => {
         <div className="flex flex-wrap items-end justify-between gap-4 mb-10">
           <div>
             <h2 className="text-midnight_text text-3xl lg:text-4xl font-semibold">
-              Choose by Need (CTA chính)
+              Chọn theo nhu cầu
             </h2>
             <p className="text-black/70 mt-3 max-w-2xl">
               Chọn sách theo vấn đề bạn đang gặp để đi nhanh nhất tới kết quả.

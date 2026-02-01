@@ -37,10 +37,10 @@ const Hero = () => {
                         </div>
                         <div className="flex flex-wrap gap-6 pt-4 text-black/80">
                             <span className="inline-flex items-center gap-2 text-sm font-medium">
-                                <Icon icon="tabler:video" className="text-primary text-lg" /> Best Sellers có 🎬 video
+                                <Icon icon="tabler:video" className="text-primary text-lg" /> Sách bán chạy có video
                             </span>
                             <span className="inline-flex items-center gap-2 text-sm font-medium">
-                                <Icon icon="tabler:video" className="text-primary text-lg" /> Bundle nổi bật có 🎬 video
+                                <Icon icon="tabler:video" className="text-primary text-lg" /> Bộ sách có video
                             </span>
                         </div>
                     </div>

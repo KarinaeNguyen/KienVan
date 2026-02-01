@@ -34,7 +34,7 @@ const FeaturedBundles = () => {
         <div className="flex flex-wrap items-end justify-between gap-4 mb-10">
           <div>
             <h2 className="text-midnight_text text-3xl lg:text-4xl font-semibold">
-              Book Bundles nổi bật (có 🎬 video)
+              Bộ sách nổi bật
             </h2>
             <p className="text-black/70 mt-3 max-w-2xl">
               Các gói sách theo vấn đề và giai đoạn, đã có video giải thích vì sao nên mua.

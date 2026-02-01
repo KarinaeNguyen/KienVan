@@ -34,7 +34,7 @@ const BestSellers = () => {
         <div className="flex flex-wrap items-end justify-between gap-4 mb-10">
           <div>
             <h2 className="text-midnight_text text-3xl lg:text-4xl font-semibold">
-              Best Sellers (có 🎬 video)
+              Sách bán chạy
             </h2>
             <p className="text-black/70 mt-3 max-w-2xl">
               Những cuốn sách được chọn lọc, có video review ngắn để bạn ra quyết định nhanh.
