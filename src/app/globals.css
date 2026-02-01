@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,17 +8,38 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --kv-primary: #063ea2;
+  --kv-primary-2: #ed701d;
+  --kv-secondary: #3197c9;
+  --kv-neutral: #FDFEFE;
+}
+
+body {
+  @apply font-sans text-midnight_text bg-white;
+  letter-spacing: -0.04em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.04em;
+}
+
 section {
   @apply py-20;
 }
 
 .slick-dots {
-  color: #1A21BC;
+  color: #063ea2;
 }
 
 .slick-dots li.slick-active button:before {
   opacity: 1;
-  color: #1A21BC !important;
+  color: #063ea2 !important;
 }
 
 .slick-dots li button:before {

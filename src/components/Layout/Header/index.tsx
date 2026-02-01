@@ -85,7 +85,7 @@ const Header: React.FC = () => {
           <div className="flex items-center gap-4">
             <Link
               href="#"
-              className="hidden lg:block bg-primary text-white hover:bg-primary/15 hover:text-primary px-16 py-5 rounded-full text-lg font-medium"
+              className="hidden lg:block bg-secondary text-white hover:bg-secondary/15 hover:text-secondary px-8 py-3 rounded-full text-sm font-medium"
               onClick={() => {
                 setIsSignInOpen(true);
               }}
@@ -114,7 +114,7 @@ const Header: React.FC = () => {
             )}
             <Link
               href="#"
-              className="hidden lg:block bg-primary/15 hover:bg-primary text-primary hover:text-white px-16 py-5 rounded-full text-lg font-medium"
+              className="hidden lg:block bg-primary/15 hover:bg-primary text-primary hover:text-white px-8 py-3 rounded-full text-sm font-medium"
               onClick={() => {
                 setIsSignUpOpen(true);
               }}

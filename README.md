@@ -14,9 +14,83 @@ Date: 2026-01-26
 - Blog content exists but no app route currently discovered for it.
 - API folder contains data.tsx but no route handlers detected under app/api (no route.ts).
 
-## Sitemap (App Routes)
-- /
-- /documentation
-- /signin
-- /signup
-- /404 (not-found page)
+## Sitemap (Planned)
+/
+├── Home
+│   ├── Hero: Chọn sách đúng để giải quyết vấn đề bạn đang gặp
+│   ├── Choose by Need (CTA chính)
+│   ├── Best Sellers (có 🎬 video)
+│   ├── Book Bundles nổi bật (có 🎬 video)
+│   └── CTA: Xem tất cả sách
+│
+├── Books
+│   ├── All Books
+│   │
+│   ├── By Category
+│   │   ├── Kinh tế & Đầu tư
+│   │   ├── Quản trị & Lãnh đạo
+│   │   └── Làm Cha Mẹ
+│   │
+│   ├── By Need  ⭐ TRỤC CHÍNH
+│   │   ├── Đang áp lực công việc / kinh doanh
+│   │   ├── Muốn nâng cấp tư duy quản trị
+│   │   ├── Muốn ra quyết định tốt hơn
+│   │   └── Muốn dạy con tốt hơn
+│   │
+│   └── Best Sellers / Gợi ý của Kiến Văn
+│
+├── Book Detail  ⭐ TRANG QUYẾT ĐỊNH
+│   ├── Thông tin sách + Giá
+│   ├── CTA: Mua ngay / Thêm vào giỏ
+│   ├── 🎬 Video TikTok Review (60–90s)
+│   ├── Cuốn này giúp bạn giải quyết gì?
+│   ├── Phù hợp với ai / Không phù hợp với ai
+│   ├── Nên đọc khi nào?
+│   ├── Gợi ý cách đọc & áp dụng
+│   ├── Thường được mua cùng
+│   └── Gợi ý Bundle liên quan (có 🎬 video)
+│
+├── Book Bundles  ⭐ 
+│   ├── Bundle theo VẤN ĐỀ
+│   │   ├── Quản trị khi áp lực
+│   │   ├── Ra quyết định tốt hơn
+│   │   └── Làm cha mẹ tỉnh thức
+│   │
+│   ├── Bundle theo GIAI ĐOẠN
+│   │   ├── Người mới làm quản lý
+│   │   ├── Founder / Chủ doanh nghiệp
+│   │   └── Gia đình có con nhỏ
+│   │
+│   └── Bundle Detail
+│       ├── 🎬 Video TikTok: Vì sao nên mua gói này?
+│       ├── Danh sách sách trong bundle
+│       ├── Thứ tự đọc gợi ý
+│       └── CTA: Mua bundle
+│
+├── Reading Experience  
+│   ├── Reading Guides
+│   │   ├── Cách đọc sách kinh tế không quá tải
+│   │   ├── Cách đọc sách quản trị để áp dụng
+│   │   └── Cách đọc sách làm cha mẹ cùng con
+│   └── Notes & Reflections (ngắn, thực tế)
+│
+├── Checkout
+│   ├── Giỏ hàng
+│   ├── Thông tin giao hàng
+│   ├── Thanh toán
+│   └── Xác nhận đơn
+│
+├── Account (Optional – rất gọn)
+│   ├── Đơn hàng của tôi
+│   └── Gợi ý sách tiếp theo (dựa trên lịch sử mua)
+│
+├── About
+│   ├── Vì sao Kiến Văn bán sách
+│   └── Triết lý chọn sách
+│
+├── Support
+│   ├── FAQ
+│   ├── Đổi trả & vận chuyển
+│   └── Liên hệ
+│
+└── Legal

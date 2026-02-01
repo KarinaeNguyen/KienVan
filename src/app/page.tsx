@@ -1,24 +1,22 @@
 import React from "react";
 import Hero from "@/components/Home/Hero";
-import Companies from "@/components/Home/Companies";
-import Courses from "@/components/Home/Courses";
-import Mentor from "@/components/Home/Mentor";
-import Testimonial from "@/components/Home/Testimonials";
-import Newsletter from "@/components/Home/Newsletter";
+import ChooseByNeed from "@/components/Home/ChooseByNeed";
+import BestSellers from "@/components/Home/BestSellers";
+import FeaturedBundles from "@/components/Home/FeaturedBundles";
+import HomeCta from "@/components/Home/HomeCta";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "eLearning",
+  title: "Kiến Văn | Chọn sách đúng theo nhu cầu",
 };
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <Companies />
-      <Courses />
-      <Mentor />
-      <Testimonial />
-      <Newsletter />
+      <ChooseByNeed />
+      <BestSellers />
+      <FeaturedBundles />
+      <HomeCta />
     </main>
   );
 }

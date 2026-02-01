@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
+        sans: ['"Be Vietnam Pro"', 'sans-serif'],
       },
       boxShadow: {
         'input-shadow': '0 63px 59px rgba(26,33,188,.1)',
@@ -19,13 +19,14 @@ const config: Config = {
         'testimonial-shadow2': '5.54348px 38.8043px 110.87px rgba(89,104,118,.15)',
       },
       colors: {
-        primary: "#6556ff",
-        secondary: "#1a21bc",
-        grey: "#57595f",
-        slateGray: "#f6faff",
-        deepSlate: "#d5effa",
+        primary: "#063ea2",
+        secondary: "#ed701d",
+        accent: "#3197c9",
+        grey: "#425466",
+        slateGray: "#FDFEFE",
+        deepSlate: "#EAF4FB",
         success: "#43c639",
-        midnight_text: "#222c44",
+        midnight_text: "#063ea2",
       },
       spacing: {
         '75%': '75%',
