@@ -8,9 +8,9 @@ const Logo: React.FC = () => {
       <Image
         src= {`${getImagePrefix()}images/logo/logo.svg`}
         alt="logo"
-        width={160}
-        height={50}
-        style={{ width: "auto", height: "auto" }}
+        width={120}
+        height={40}
+        className="h-10 w-auto"
         quality={100}
       />
     </Link>
