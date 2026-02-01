@@ -2,6 +2,14 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import Link from "next/link";
 import { Metadata } from "next";
 
+const BOOK_SLUGS = ["tu-duy-he-thong", "ra-quyet-dinh", "lam-cha-me-tinh-thuc"];
+
+export const dynamicParams = false;
+
+export const generateStaticParams = async () => {
+  return BOOK_SLUGS.map((slug) => ({ slug }));
+};
+
 export const metadata: Metadata = {
   title: "Book Detail | Kiến Văn",
 };
