@@ -17,7 +17,7 @@ export const Introduction = () => {
       id: "1",
       packageName: "NextJs",
       img: nextImg,
-      version: "15.0.3",
+      version: "14.2.35",
     },
     {
       id: "2",
@@ -29,19 +29,19 @@ export const Introduction = () => {
       id: "3",
       packageName: "Tailwindcss",
       img: tailwindImg,
-      version: "3.4.1",
+      version: "3.4.4",
     },
     {
       id: "4",
       packageName: "NextAuth",
       img: nextauthImg,
-      version: "4.24.7",
+      version: "4.24.13",
     },
     {
       id: "5",
       packageName: "Typescript",
       img: typescriptImg,
-      version: "5.6.3",
+      version: "5.4.5",
     },
   ];
   return (
