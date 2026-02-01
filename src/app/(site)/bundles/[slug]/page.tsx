@@ -2,6 +2,14 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import Link from "next/link";
 import { Metadata } from "next";
 
+const BUNDLE_SLUGS = ["quan-tri-khi-ap-luc", "ra-quyet-dinh-tot-hon", "lam-cha-me-tinh-thuc"];
+
+export const dynamicParams = false;
+
+export const generateStaticParams = async () => {
+  return BUNDLE_SLUGS.map((slug) => ({ slug }));
+};
+
 export const metadata: Metadata = {
   title: "Bundle Detail | Kiến Văn",
 };
